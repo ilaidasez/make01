@@ -837,6 +837,10 @@ footer {
 
 @media (min-width: 375px) and (max-width: 720px) {
 
+    body {
+        width: 100%;
+    }
+
     header, main {
         width: 100%;
     }
@@ -849,6 +853,7 @@ footer {
     .wrap {
         width: 100%;
         height: 1800px;
+        padding: 0 5px 0 5px;
     }
 
     /* articles */
@@ -952,6 +957,7 @@ footer {
 
     /* white */
     .white {
+        width: 100%;
         height: 80%;
         padding: 0 20px 0 20px;
     }
@@ -999,7 +1005,7 @@ footer {
     /* footer */
     footer {
         width: 100%;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         margin-top: 20px;
     }
 
@@ -1019,19 +1025,25 @@ footer {
         gap: 2px;
     }
 
-
+    .footer {
+        width: 100%;
+    }
+    .footeriy nav ul {
+        width: 100%;
+    }
 
     /* tool */
     .tool {
         margin-left: 30px;
         margin-top: 150px;
+        width: 100%;
     }
 
     .tool p {
         width: 100%;
         /* margin: 150px 0 0 30px; */
         text-align: left;
-        padding: left 5px;: ;
+        padding: left 5px;
     }
 
 
